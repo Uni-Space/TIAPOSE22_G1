@@ -1,0 +1,152 @@
+[
+    {
+        "name":"Random Forest",
+        "rminer":"randomForest",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic5",
+"rf_t"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            true,
+            "algorithm":"rf_t",
+            "MAE":            407.138787447364
+        }
+    },
+    {
+        "name":"Support Vector Machine (KSVM)",
+        "rminer":"ksvm",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic5",
+"svm_C",
+"svmRadial_t",
+"svmLinear_t",
+"svmPoly_t"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            true,
+            "algorithm":"heuristic",
+            "MAE":            576.714295828034
+        }
+    },
+    {
+        "name":"Multi Linear Regression (LM)",
+        "rminer":"lm",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic10"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            false,
+            "algorithm":"heuristic",
+            "MAE":            678.013079994755
+        }
+    },
+    {
+        "name":"Multilayer Percepton Ensemble (MLPE)",
+        "rminer":"mlpe",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic5",
+"heuristic10",
+"mlp_t",
+"avNNet_t",
+"nnet_t"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            false,
+            "algorithm":"heuristic10",
+            "MAE":            510.584007312579
+        }
+    },
+    {
+        "name":"Naive",
+        "rminer":"naive",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic10"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            false,
+            "algorithm":"heuristic",
+            "MAE":            506.452571428571
+        }
+    },
+    {
+        "name":"Generalized Linear Model (GLM)",
+        "rminer":"cv.glmnet",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic10"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            false,
+            "algorithm":"heuristic",
+            "MAE":            506.452571428571
+        }
+    },
+    {
+        "name":"Decision Three",
+        "rminer":"rpart",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic5",
+"heuristic10",
+"rpart_t",
+"rpart2_t"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            false,
+            "algorithm":"heuristic",
+            "MAE":            449.952380952381
+        }
+    },
+    {
+        "name":"K-Nearest Neighbor (KNN)",
+        "rminer":"knn",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic5",
+"heuristic10",
+"knn_R",
+"knn_t"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            false,
+            "algorithm":"heuristic",
+            "MAE":            410.019563442349
+        }
+    },
+    {
+        "name":"Multilayer Percepton (MLP)",
+        "rminer":"mlp",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic5",
+"heuristic10",
+"mlp_t",
+"nnet_t"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            false,
+            "algorithm":"heuristic",
+            "MAE":            601.881812665991
+        }
+    },
+    {
+        "name":"eXtreme Gradient Boosting (XGB)",
+        "rminer":"xgboost",
+        "rminer_mparheuristic":[
+"heuristic",
+"heuristic5",
+"heuristic10",
+"xgb9"
+        ],
+        "rminer_best_search":{
+            "mparheuristic":            true,
+            "algorithm":"heuristic5",
+            "MAE":            418.947440011161
+        }
+    }
+]

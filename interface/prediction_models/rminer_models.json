@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Random Forest",
+        "rminer": "randomForest",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic5",
+            "rf_t"
+        ]
+    },
+    {
+        "name": "Support Vector Machine (KSVM)",
+        "rminer": "ksvm",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic5",
+            "svm_C",
+            "svmRadial_t",
+            "svmLinear_t",
+            "svmPoly_t"
+        ]
+    },
+    {
+        "name": "Multi Linear Regression (LM)",
+        "rminer": "lm",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic10"
+        ]
+    },
+    {
+        "name": "Multilayer Percepton Ensemble (MLPE)",
+        "rminer": "mlpe",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic5",
+            "heuristic10",
+            "mlp_t",
+            "avNNet_t",
+            "nnet_t"
+        ]
+    },
+    {
+        "name": "Naive",
+        "rminer": "naive",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic10"
+        ]
+    },
+    {
+        "name": "Generalized Linear Model (GLM)",
+        "rminer": "cv.glmnet",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic10"
+        ]
+    },
+    {
+        "name": "Decision Three",
+        "rminer": "rpart",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic5",
+            "heuristic10",
+            "rpart_t",
+            "rpart2_t"
+        ]
+    },
+    {
+        "name": "K-Nearest Neighbor (KNN)",
+        "rminer": "knn",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic5",
+            "heuristic10",
+            "knn_R",
+            "knn_t"
+        ]
+    },
+    {
+        "name": "Multilayer Percepton (MLP)",
+        "rminer": "mlp",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic5",
+            "heuristic10",
+            "mlp_t",
+            "nnet_t"
+        ]
+    },
+    {
+        "name": "eXtreme Gradient Boosting (XGB)",
+        "rminer": "xgboost",
+        "rminer_mparheuristic": [
+            "heuristic",
+            "heuristic5",
+            "heuristic10",
+            "xgb9"
+        ]
+    }
+]
